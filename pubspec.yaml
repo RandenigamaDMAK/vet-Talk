@@ -1,0 +1,48 @@
+name: vet_talk
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+      
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.7
+  flutter_svg: ^2.0.10+1  
+  firebase_core: ^4.7.0
+  provider: ^6.1.1
+  google_maps_flutter: ^2.5.3
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/welcome.png
+    - assets/images/dog.png
+    - assets/images/home_banner.png
+    - assets/images/dog_case.png
+    - assets/images/cat_case.png
+    - assets/images/injured_dog.png
+    - assets/images/user_profile.png
+    - assets/images/ongoing_dog.png
+    - assets/images/resolved_cat.png
+    - assets/images/resolved_dog.png
+    - assets/images/cat1.jpg
+    - assets/images/dog1.jpg
+    - assets/images/cat2.jpg
+    - assets/images/dog2.jpg
+    - assets/images/dog3.jpg
+    - assets/images/dog4.jpg
+    - assets/images/success_pets.png
